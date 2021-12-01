@@ -7,6 +7,6 @@
     uri:
       url: "https://api.esv.org/v3/passage/text/?q=John+11:35"
       headers:
-        - Authorization: Token 672d39cf091d3fedea9b4141bfafd47c5e074eb3
+        Authorization: Token 672d39cf091d3fedea9b4141bfafd47c5e074eb3
       method: GET 
 
