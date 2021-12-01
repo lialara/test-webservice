@@ -1,0 +1,10 @@
+---
+- name: Testear web service
+  hosts: all
+  tasks:
+
+  - name: Confirm that 503 Unavailable response is returned
+    uri:
+      url: "http://"
+      status_code: 
+
